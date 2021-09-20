@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home|Sanday Tattoos</title>
+    <link rel="stylesheet" href="cssfile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+    ">
+    <link rel="stylesheet" href="cssfileslider.css">
+    <link rel="stylesheet" href="tattoo.css">
+</head>
+<body>
+    <section class="logo-section">
+        <div class="logo-div">
+            <img src="Images/johncenalogo.png">
+            <h1>SANDAY TATTOOS</h1>
+            <p>TATTOO STUDIO</p>
+        </div>
+    </section>
+
+    <section class="navbar-section">
+        <div class="navbar-left">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tattoo.html">Tattoo</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="piercing.html">Piercing</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <ul>
+                <li><a href="#"><img src="Images/instagramlogo.png"></a></li>
+                <li><a href="#"><img src="Images/facebooklogo.png"></a></li>
+                <li><a href="#"><img src="Images/linkedlnlogo.png"></a></li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section id="slider-part" class="m-top">
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="Images/tattoo1.jpg">
+            </div>
+            
+            <div class="slide">
+                <img src="Images/tattoo2.jpg">
+            </div>
+            
+            <div class="slide">
+                <img src="Images/tattoo3.jpg">
+            </div>
+            
+            <div class="slide">
+                <img src="Images/tattoo4.jpg">
+            </div>
+            
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            
+        </div>
+        
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn active" id="btn1"></label>
+            <label for="radio2" class="manual-btn" id="btn2"></label>
+            <label for="radio3" class="manual-btn" id="btn3"></label>
+            <label for="radio4" class="manual-btn" id="btn4"></label>
+        </div>
+    </div>
+    
+    <script>
+        var bt1=document.getElementById("btn1");
+        var bt2=document.getElementById("btn2");
+        var bt3=document.getElementById("btn3");
+        var bt4=document.getElementById("btn4");
+        
+        bt1.onclick=function(){
+            bt1.classList.add("active");
+            bt2.classList.remove("active");
+            bt3.classList.remove("active");
+            bt4.classList.remove("active");
+        }
+        
+        bt2.onclick=function(){
+            bt1.classList.remove("active");
+            bt2.classList.add("active");
+            bt3.classList.remove("active");
+            bt4.classList.remove("active");
+        }
+        
+        bt3.onclick=function(){
+            bt1.classList.remove("active");
+            bt2.classList.remove("active");
+            bt3.classList.add("active");
+            bt4.classList.remove("active");
+        }
+        
+        bt4.onclick=function(){
+            bt1.classList.remove("active");
+            bt2.classList.remove("active");
+            bt3.classList.remove("active");
+            bt4.classList.add("active");
+        }
+        </script>
+
+<script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+            counter++;
+            if(counter>4){
+                counter=1;
+                
+            }
+            
+        },5000);
+        
+        </script>
+
+</section>
+
+<section class="middle-section-1 m-top">
+    <div class="middle-section-1-div">
+
+        <h1 id="middle-text-1">WELCOME TO<br>SUNDAY TATTOOS</h1>
+        <br>
+        <br>
+        <p id="middle-text-p-1">THE BIGGEST TATTOO STUDIO OF GUJARAT</p>
+        
+    </div>
+</section>
+
+<section class="middle-section-2 m-top">
+    <div class="middle-section-2-div">
+        <h1 id="middle-text-2-h1">THE COOLEST TATTOO<br>STUDIO IN AHMEDABAD</h1>
+        <h4 id="middle-text-2-h4">Clean. Bold. Professional. Creative.</h4>
+        <p id="middle-text-p-2">From the first traces to a finished design, we’re the best in Ahmedabad.<br> We’ll do anything from a simple name to full sleeve work, and we won’t rest until all our work is perfect.<br> We pride ourselves in providing a clean and comfortable environment, while also maintaining a wide variety of artists and styles. </p>
+
+
+    </div>
+</section>
+
+<section class="middle-section-3">
+    <div class="middle-section-3-div">
+        <h1 id="middle-text-3-h1">TRUST SUNDAY TATTOOS<br>WITH YOUR BODY ART</h1>
+        <p id="middle-text-p-3-1">Professional Tattooing & Piercing Since 2003</p>
+        <p id="middle-text-p-3-2">CALL US NOW</p>
+        <button id="section-3-button">+91-9898989898</button>
+    </div>
+</section>
+
+<section class="contact-us-index-section">
+    <div class="contact-us-index-div">
+        <h1 id="contact-us-h1">OR CONTACT US</h1>
+        <p id="contact-us-p">by leaving your query</p>
+        <div class="form-contact">
+            <input type="text" placeholder="Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Email">
+        </div>
+        <div class="form-contact-1">
+            <input type="text" placeholder="Phone"><br>
+            <input type="text" placeholder="Subject"><br>
+            <textarea cols="10" rows="5" placeholder="Message"></textarea>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <h1 class="h1-test">TESTIMONIALS</h1>
+    <p class="p-test">Word on the Street</p>
+
+    <div class="testimonails-content">
+        <div class="test-detail1">
+            <img src="Images/comma.png" class="testimonial-symbol-image">
+            <p class="comma-content">I've been wanting to get inked for so long. I am glad that I finally got the right words for my first tattoo. These words are from my book 'Need a hug?'<br> Words that mean a lot me.
+                This tattoo is a reminder of my capability to accept, and own my pain. My motivational reminder to move on. 🌻<br><br>
+                
+                And this is made by none other than La Nina Tattoo Studio. I had an amazing experience at this super hygienic and well maintained place. My tattoo was done by an extremely talented artist.<br> I had my doubts and made changes more than once, but he kept his patience and did a fabulous job! This tattoo looks exactly as I wanted.<br> Right on my scars (closely look at the scar beneath 'galaxy'). Thanks for making my first tattoo experience such a comfortable one!<br> Much love, Bhumika 🌻
+                Bhumika</p>
+
+        </div>
+
+        <div class="test-detail1">
+            <img src="Images/comma.png" class="testimonial-symbol-image">
+            <p class="comma-content">I've been wanting to get inked for so long. I am glad that I finally got the right words for my first tattoo. These words are from my book 'Need a hug?'<br> Words that mean a lot me.
+                This tattoo is a reminder of my capability to accept, and own my pain. My motivational reminder to move on. 🌻<br><br>
+                
+                And this is made by none other than La Nina Tattoo Studio. I had an amazing experience at this super hygienic and well maintained place. My tattoo was done by an extremely talented artist.<br> I had my doubts and made changes more than once, but he kept his patience and did a fabulous job! This tattoo looks exactly as I wanted.<br> Right on my scars (closely look at the scar beneath 'galaxy'). Thanks for making my first tattoo experience such a comfortable one!<br> Much love, Bhumika 🌻
+                Bhumika</p>
+
+        </div>
+
+        <div class="test-detail1">
+            <img src="Images/comma.png" class="testimonial-symbol-image">
+            <p class="comma-content">I've been wanting to get inked for so long. I am glad that I finally got the right words for my first tattoo. These words are from my book 'Need a hug?'<br> Words that mean a lot me.
+                This tattoo is a reminder of my capability to accept, and own my pain. My motivational reminder to move on. 🌻<br><br>
+                
+                And this is made by none other than La Nina Tattoo Studio. I had an amazing experience at this super hygienic and well maintained place. My tattoo was done by an extremely talented artist.<br> I had my doubts and made changes more than once, but he kept his patience and did a fabulous job! This tattoo looks exactly as I wanted.<br> Right on my scars (closely look at the scar beneath 'galaxy'). Thanks for making my first tattoo experience such a comfortable one!<br> Much love, Bhumika 🌻
+                Bhumika</p>
+
+        </div>
+    </div>
+
+</section>
+<section class="find">
+    <h1 id="find-h">FIND YOUR DREAM TATTOO</h1>
+    <p class="find-p">Nothing Is Out of Reach</p>
+    <p class="find-p">Each artist at La nina Tattoos works directly with clients to create body art based on their input, but also provides guidance and artistic<br> vision for the process. We believe you should pick an artist based on how their style fits your unique needs.<br> Make the tattoo of your dreams come true with us. Get in touch today!</p>
+    
+</section>
+
+<section class="last-second">
+    <div class="last-second-div">
+        <a href="#"><img src="./Images/tattoo6.jpg"></a>
+        <h2>CUSTOM TATTOO DESIGN</h2>
+    </div>
+
+    <div class="last-second-div">
+        <a href="#"><img src="./Images/tattoo7.jpg"></a>
+        <h2>TATTOO AFTER CARE</h2>
+    </div>
+
+    <div class="last-second-div">
+        <a href="#"><img src="./Images/tattoo8.jpg"></a>
+        <h2>COLOR SLEEVES</h2>
+    </div>
+</section>
+
+<footer>
+    <hr>
+    <p>©2021 by Sanday Tattoos.</p>
+</footer>
+
+
+</body>
+</html>

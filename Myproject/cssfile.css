@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    width: 100%;
+    height: 216px;
+
+
+}
+
+.logo-div img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    padding-left: 55px;
+
+}
+
+.logo-div h1 {
+    font-size: 32px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.logo-div p {
+    padding-left: 67px;
+    padding-top: 7px;
+}
+
+/*navbar*/
+
+.navbar-section {
+    background-color: #000;
+    width: 100%;
+    height: 44px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.navbar-left {
+    width: 122%;
+
+}
+
+.navbar-left li {
+    list-style: none;
+    padding: 0px 37px;
+
+}
+
+.navbar-left li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-left ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 12px;
+}
+
+.navbar-right {
+    width: 30%;
+}
+
+.navbar-right li {
+    list-style: none;
+    padding: 0px 9px;
+}
+
+.navbar-right li a {
+    text-decoration: none;
+
+}
+
+.navbar-right img {
+    width: 23px;
+    height: 23px;
+}
+
+.navbar-right ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.m-top {
+    margin-top: 42px;
+}
+
+.middle-section-1 {
+    background: url(./Images/tattoo4.jpg);
+    height: 419px;
+}
+
+.middle-section-1 h1,
+p {
+    color: #fff;
+}
+
+.middle-section-1-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 42px;
+    padding-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 400px;
+}
+
+#middle-text-1 {
+    font-size: 50px;
+}
+
+#middle-text-p-1 {
+    padding: 15px 0px;
+}
+
+.middle-section-2 {
+    margin: 0px;
+}
+
+.middle-section-2-div {
+    background: #000;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px 0px;
+
+}
+
+#middle-text-2-h1 {
+    color: #fff;
+    font-size: 50px;
+    padding-top: 57px;
+    font-weight: 200;
+}
+
+#middle-text-2-h4 {
+    color: #fff;
+    font-size: 23px;
+    padding-top: 15px;
+    font-weight: 200;
+}
+
+#middle-text-p-2 {
+    padding-top: 15px;
+    font-weight: 200;
+}
+
+.middle-section-3-div {
+    background: url(./Images/tattoo5.jpg);
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-size: cover;
+}
+
+#middle-text-3-h1 {
+    font-size: 50px;
+    font-weight: 200;
+    padding-top: 57px;
+
+}
+
+#middle-text-p-3-1 {
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+#middle-text-p-3-2 {
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+#section-3-button {
+    width: 169px;
+    height: 43px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 15px auto;
+    cursor: pointer;
+
+}
+
+.contact-us-index-div {
+    background: #fff;
+    height: 450px;
+}
+
+#contact-us-h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+#contact-us-p {
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.form-contact input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 300px;
+    outline: none;
+}
+
+.form-contact-1 input,
+textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 676px;
+    outline: none;
+}
+
+.contact-us-index-section {
+    text-align: center;
+
+}
+
+.testimonials {
+    background: url(./Images/testimonial.jpg);
+    height: 721px;
+
+}
+
+.h1-test {
+    text-align: center;
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.p-test {
+    text-align: center;
+    font-weight: 200;
+    color: #000;
+    padding-top: 25px;
+}
+
+.test-detail1 {
+    background: #fff;
+    height: 551px;
+    width: 372px;
+    margin-left: 114px;
+    margin-top: 35px;
+
+}
+
+.testimonial-symbol-image {
+    width: 100px;
+    height: 100px;
+}
+
+.comma-content {
+    padding: 30px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.testimonails-content {
+    display: flex;
+}
+
+.test {
+    align-items: center;
+
+}
+
+.find-p {
+    color: #000;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.find {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 66px;
+}
+
+#find-h {
+    font-size: 35px;
+    padding-top: 20px;
+    font-weight: 200;
+}
+
+.last-second {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.last-second-div img {
+    height: 250px;
+    width: 317px;
+}
+
+.last-second-div h2{
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+footer p{
+    color: #000;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+footer{
+    height: 100px;
+    margin:58px 0px;
+}
+
